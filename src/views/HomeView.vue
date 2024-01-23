@@ -422,7 +422,7 @@ const RedPath = {
 
 function road(e) {
   let N = e.latLng.lat()
-  let E = e.latLng.lat()
+  let E = e.latLng.lng()
   const { href } = router.resolve({
     name: 'about',
     query: {
